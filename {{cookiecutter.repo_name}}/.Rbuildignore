@@ -1,0 +1,13 @@
+^\.Rprofile$
+^.*\.Rproj$
+^\.Rproj\.user$
+^NEWS\.md$
+^\.travis\.yml$
+^data/output/
+^data/input/
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^.osfcli.config$
+^hpc_jobs/
+^scripts/

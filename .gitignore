@@ -1,0 +1,23 @@
+.Rproj.user
+.Rhistory
+
+.RData
+
+# ignore produced vignettes
+inst/doc/*
+vignettes/*.html
+vignettes/*.pdf
+
+#Ignore packrat libraries
+packrat/lib*/
+#Ignore packrat sources
+packrat/src/
+
+# Vim swap files
+*.swp
+
+#Ignore output data
+data/output/
+
+#Generated docs
+docs

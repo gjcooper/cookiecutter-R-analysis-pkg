@@ -1,0 +1,20 @@
+# Ignore R associated files
+.Rproj.user
+.Rprofile
+.Rhistory
+
+# Ignore R data
+.RData
+
+# ignore produced vignettes
+inst/doc/*
+vignettes/*.html
+vignettes/*.pdf
+
+# Vim swap files
+*.swp
+{%- if cookiecutter.license == "yes" -%}
+
+# Ignore the data directory
+./data/
+{% endif %}

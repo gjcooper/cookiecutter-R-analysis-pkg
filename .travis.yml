@@ -1,0 +1,15 @@
+language: 
+    - r
+    - python
+
+sudo: required
+
+r_packages:
+    - rmarkdown
+
+before_install:
+    - sudo pip install cookiecutter
+    - cookiecutter . --no-input repo_name=boilerplate
+    - cd ./boilerplate
+    - R -e 'install.packages(c("devtools", "roxygen2", "testthat", "knitr", "rmarkdown"))' 
+    - R -e "devtools::document()"
