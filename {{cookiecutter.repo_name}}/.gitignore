@@ -13,8 +13,3 @@ vignettes/*.pdf
 
 # Vim swap files
 *.swp
-{%- if cookiecutter.ignore_data == "yes" -%}
-
-# Ignore the data directory
-./data/
-{% endif %}
