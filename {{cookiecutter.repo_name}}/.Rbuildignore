@@ -3,11 +3,10 @@
 ^\.Rproj\.user$
 ^NEWS\.md$
 ^\.travis\.yml$
-^data/output/
-^data/input/
+^data/
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
 ^.osfcli.config$
-^hpc_jobs/
 ^scripts/
+^reports/
